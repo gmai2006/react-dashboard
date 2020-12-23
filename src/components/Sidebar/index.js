@@ -1,24 +1,50 @@
 import React from 'react';
-import {Nav, Accordion, Card, Button, ButtonGroup, ListGroup, Dropdown} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import {Navigation} from 'react-minimal-side-navigation';
+import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
+import { useHistory, useLocation } from "react-router-dom";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faFileAlt, faTable, faDatabase} from '@fortawesome/free-solid-svg-icons';
+
+import './style.css';
 
 const Sidebar = () => {
+    const history = useHistory();
+    const location = useLocation();
     return (
-        <Nav defaultActiveKey="/overview" className="flex-column">
-            <Nav.Link as={Link} to="/overview">Overview</Nav.Link>
-            <Nav.Link as={Link} to="/table">
-                <Dropdown as={ButtonGroup}>
-                    <Button variant="link">Table</Button>
-                    <Dropdown.Toggle split variant="link" />
-                    <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">1st table</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">2nd table</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">3rd table</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-            </Nav.Link>
-            <Nav.Link as={Link} to="/query">SQL Generator</Nav.Link>
-        </Nav>
+        <Navigation
+            activeItemId={location.pathname}
+            onSelect={({itemId}) => {
+                history.push(itemId);
+            }}
+            items={[
+              {
+                title: 'Overview',
+                itemId: '/',
+                elemBefore: () => <FontAwesomeIcon icon={faFileAlt} />,
+              },
+              {
+                title: 'Table',
+                itemId: '/table',
+                elemBefore: () => <FontAwesomeIcon icon={faTable} />,
+                subNav: [
+                  {
+                    title: 'Projects',
+                    itemId: '/management/projects',
+                  },
+                  {
+                    title: 'Members',
+                    itemId: '/management/members',
+                  },
+                ],
+              },
+              {
+                title: 'SQL Generator',
+                itemId: '/query',
+                elemBefore: () => <FontAwesomeIcon icon={faDatabase} />,
+              },
+            ]}
+        />
     )
 }
 

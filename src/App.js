@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import {Container, Col, Row} from 'react-bootstrap';
 
 import Sidebar from './components/Sidebar';
@@ -10,7 +11,7 @@ import Query from './pages/Query';
 
 const App = () => {
   return (
-    <React.Fragment>
+    <div className='App'>
       <Router>
         <Container fluid>
           <Row>
@@ -19,7 +20,7 @@ const App = () => {
               </Col>
               <Col xs={10}>
                 <Switch>
-                  <Route path='/overview' component={Overview} />
+                  <Route path='/' exact component={Overview} />
                   <Route path='/table' component={TablePage} />
                   <Route path='/query' component={Query} />
                 </Switch>
@@ -27,7 +28,7 @@ const App = () => {
           </Row>
       </Container>
     </Router>
-    </React.Fragment>
+    </div>
   );
 }
 
