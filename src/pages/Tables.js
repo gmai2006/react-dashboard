@@ -1,20 +1,12 @@
 import React from 'react';
 import DataTable from '../components/Table';
+import TablePagination from '../components/Pagination';
 
 const AllTables = () => {
     return (
         <React.Fragment>
             <DataTable />
-            <DataTable />
-            <DataTable />
-            <DataTable />
-            <DataTable />
-            <DataTable />
-            <DataTable />
-            <DataTable />
-            <DataTable />
-            <DataTable />
-            <DataTable />
+            <TablePagination />
         </React.Fragment>
     )
 }

@@ -7,20 +7,18 @@ import htmlSample from '../assets/html-sample.jpg'
 const Overview = () => {
     return (
         <React.Fragment>
-            {/* <Container> */}
-                <CardBox />
-                <br></br>
-                <Container>
-                    <Row>
-                        <Col xs={7}>
-                            <Image src={DatabaseSchema} />
-                        </Col>
-                        <Col xs={5}>
-                            <Image src={htmlSample} />
-                        </Col>
-                    </Row>
-                </Container>
-            {/* </Container> */}
+            <CardBox />
+            <br></br>
+            <Container>
+                <Row>
+                    <Col xs={7}>
+                        <Image src={DatabaseSchema} />
+                    </Col>
+                    <Col xs={5}>
+                        <Image src={htmlSample} />
+                    </Col>
+                </Row>
+            </Container>
         </React.Fragment>
     )
 }
