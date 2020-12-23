@@ -29,12 +29,24 @@ const Sidebar = () => {
                 elemBefore: () => <FontAwesomeIcon icon={faTable} />,
                 subNav: [
                   {
-                    title: 'Projects',
-                    itemId: '/management/projects',
+                    title: 'Table1',
+                    itemId: '/table/table1',
                   },
                   {
-                    title: 'Members',
-                    itemId: '/management/members',
+                    title: 'Table2',
+                    itemId: '/table/table2',
+                  },
+                  {
+                    title: 'Table3',
+                    itemId: '/table/table3',
+                  },
+                  {
+                    title: 'Table4',
+                    itemId: '/table/table4',
+                  },
+                  {
+                    title: 'Table5',
+                    itemId: '/table/table5',
                   },
                 ],
               },

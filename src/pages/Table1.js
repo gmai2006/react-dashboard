@@ -1,7 +1,7 @@
 import React from 'react';
 import DataTable from '../components/Table';
 
-const TablePage = () => {
+const Table1 = () => {
     return (
         <React.Fragment>
             <DataTable />
@@ -9,4 +9,4 @@ const TablePage = () => {
     )
 }
 
-export default TablePage;
+export default Table1;

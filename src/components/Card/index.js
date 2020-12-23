@@ -16,8 +16,9 @@ const CardBox = () => {
                 <Card>
                     <Card.Body>
                     <Card.Title>Languages</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">Python</Card.Subtitle>
                     <Card.Text>
-                        Python
+                        Some text in here
                     </Card.Text>
                     </Card.Body>
                 </Card>
