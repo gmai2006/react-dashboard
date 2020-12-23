@@ -24,11 +24,15 @@ const Sidebar = () => {
                 elemBefore: () => <FontAwesomeIcon icon={faFileAlt} />,
               },
               {
-                title: 'Table',
+                title: 'Tables',
                 itemId: '/table',
                 elemBefore: () => <FontAwesomeIcon icon={faTable} />,
                 subNav: [
-                  {
+                    {
+                    title: 'All',
+                    itemId: '/table/all',
+                    },
+                    {
                     title: 'Table1',
                     itemId: '/table/table1',
                   },

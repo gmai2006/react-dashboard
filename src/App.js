@@ -6,6 +6,7 @@ import {Container, Col, Row} from 'react-bootstrap';
 
 import Sidebar from './components/Sidebar';
 import Overview from './pages/Overview';
+import AllTables from './pages/Tables';
 import Table1 from './pages/Table1';
 import Query from './pages/Query';
 
@@ -21,6 +22,7 @@ const App = () => {
               <Col xs={10}>
                 <Switch>
                   <Route path='/' exact component={Overview} />
+                  <Route path='/table/all' exact component={AllTables} />
                   <Route path='/table/table1' component={Table1} />
                   <Route path='/query' component={Query} />
                 </Switch>
