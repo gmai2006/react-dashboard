@@ -1,5 +1,5 @@
 import React from 'react';
-import {Form} from 'react-bootstrap';
+import {Form, Button} from 'react-bootstrap';
 
 const TextArea = () => {
     return (
@@ -9,6 +9,9 @@ const TextArea = () => {
                     <Form.Label>Create your SQL</Form.Label>
                     <Form.Control as="textarea" rows={10} />
                 </Form.Group>
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
             </Form>
         </React.Fragment>
     )
