@@ -14,20 +14,20 @@ const App = () => {
   return (
     <div className='App'>
       <Router>
+        <Sidebar />
         <Container fluid>
-          <Row>
-              <Col xs={2}>      
-                <Sidebar />
+          {/* <Row>
+              <Col xs={2}>
               </Col>
-              <Col xs={10}>
+              <Col xs={10}> */}
                 <Switch>
                   <Route path='/' exact component={Overview} />
                   <Route path='/table/all' exact component={AllTables} />
                   <Route path='/table/table1' component={Table1} />
                   <Route path='/query' component={Query} />
                 </Switch>
-              </Col> 
-          </Row>
+              {/* </Col> 
+          </Row> */}
       </Container>
     </Router>
     </div>

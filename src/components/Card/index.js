@@ -30,6 +30,14 @@ const CardBox = () => {
                     </Card.Text>
                     </Card.Body>
                 </Card>
+                <Card>
+                    <Card.Body>
+                    <Card.Title>Names</Card.Title>
+                    <Card.Text>
+                        John Doe
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
             </CardDeck>
         </React.Fragment>
     )
