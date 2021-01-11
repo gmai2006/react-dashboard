@@ -5,7 +5,7 @@ import TextArea from '../components/Form';
 const Query = () => {
     return (
         <React.Fragment>
-            <Container>
+            <Container className='mt-5'>
                 <TextArea />
             </Container>
         </React.Fragment>

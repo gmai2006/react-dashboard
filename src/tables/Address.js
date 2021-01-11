@@ -4,8 +4,8 @@ import {Container, Table} from 'react-bootstrap';
 const Address = () => {
     return (
         <React.Fragment>
-            <Container>
-                <Table striped bordered hover responsive>
+            <Container className='mt-5'>
+                <Table striped bordered responsive>
                     <thead>
                         <tr>
                             <th>CustomerId</th>

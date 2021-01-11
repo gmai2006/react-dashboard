@@ -32,7 +32,7 @@ const Sidebar = () => {
         <SlidingPanel
           type={'left'}
           isOpen={openPanel}
-          size={25}
+          size={20}
         >
           <div className="panel-container">
             <Navigation
