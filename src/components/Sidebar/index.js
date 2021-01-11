@@ -33,13 +33,14 @@ const Sidebar = () => {
           type={'left'}
           isOpen={openPanel}
           size={20}
+          backdropClicked={() => setOpenPanel(false)}
         >
           <div className="panel-container">
             <Navigation
               activeItemId={location.pathname}
               onSelect={({itemId}) => {
                   history.push(itemId);
-                  setOpenPanel(false)
+                  setOpenPanel(false);
               }}
               items={[
                 {

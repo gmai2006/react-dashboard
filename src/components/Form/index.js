@@ -12,7 +12,7 @@ const FormSQL = () => {
             <Form onSubmit={onSubmit}>
                 <Form.Group>
                     <Form.Label>Create your SQL</Form.Label>
-                    <Form.Control as="textarea" rows={10} onChange={e => setPost({ ...post, content: e.target.value })} />
+                    <Form.Control as="textarea" rows={15} onChange={e => setPost({ ...post, content: e.target.value })} />
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Submit
