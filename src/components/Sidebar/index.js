@@ -77,6 +77,7 @@ const Sidebar = () => {
                       title: 'AffiliateTransaction',
                       itemId: '/tables/affiliatetransaction',
                     },
+                    
                   ],
                 },
                 {

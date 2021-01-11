@@ -1,13 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Form, Button} from 'react-bootstrap';
 
-const TextArea = () => {
+const FormSQL = () => {
+    const [post, setPost] = useState({})
+
+    const onSubmit = (e) => {
+        e.preventDefault()
+    }
     return (
         <React.Fragment>
-            <Form>
-                <Form.Group controlId="exampleForm.ControlTextarea1">
+            <Form onSubmit={onSubmit}>
+                <Form.Group>
                     <Form.Label>Create your SQL</Form.Label>
-                    <Form.Control as="textarea" rows={10} />
+                    <Form.Control as="textarea" rows={10} onChange={e => setPost({ ...post, content: e.target.value })} />
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Submit
@@ -17,4 +22,4 @@ const TextArea = () => {
     )
 }
 
-export default TextArea;
+export default FormSQL;
