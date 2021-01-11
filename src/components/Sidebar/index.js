@@ -77,7 +77,46 @@ const Sidebar = () => {
                       title: 'AffiliateTransaction',
                       itemId: '/tables/affiliatetransaction',
                     },
-                    
+                    {
+                      title: 'API',
+                      itemId: '/tables/api',
+                    },
+                    {
+                      title: 'API-IP',
+                      itemId: '/tables/apiip',
+                    },
+                    {
+                      title: 'API-Session',
+                      itemId: '/tables/apisession',
+                    },
+                    {
+                      title: 'Attribute',
+                      itemId: '/tables/attribute',
+                    },
+                    {
+                      title: 'AttributeDescription',
+                      itemId: '/tables/attributedescription',
+                    },
+                    {
+                      title: 'AttributeGroup',
+                      itemId: '/tables/attributegroup',
+                    },
+                    {
+                      title: 'AttributeGroupDescription',
+                      itemId: '/tables/attributegroupdescription',
+                    },
+                    {
+                      title: 'Banner',
+                      itemId: '/tables/banner',
+                    },
+                    {
+                      title: 'BannerImage',
+                      itemId: '/tables/bannerimage',
+                    },
+                    {
+                      title: 'Cart',
+                      itemId: '/tables/cart',
+                    },
                   ],
                 },
                 {
