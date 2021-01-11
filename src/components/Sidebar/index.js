@@ -8,7 +8,7 @@ import {Navigation} from 'react-minimal-side-navigation';
 import { useHistory, useLocation } from "react-router-dom";
 import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faFileAlt, faTable, faDatabase, faBars} from '@fortawesome/free-solid-svg-icons';
+import {faFileAlt, faTable, faDatabase, faBars, faTimes} from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => {
     const history = useHistory();
@@ -42,6 +42,11 @@ const Sidebar = () => {
                   setOpenPanel(false)
               }}
               items={[
+                {
+                  title: '',
+                  itemId: '#',
+                  elemBefore: () => <FontAwesomeIcon icon={faTimes} />,
+                },
                 {
                   title: 'Overview',
                   itemId: '/',
