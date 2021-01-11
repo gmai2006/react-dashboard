@@ -2,12 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {Container, Col, Row} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 
 import Sidebar from './components/Sidebar';
 import Overview from './pages/Overview';
-import AllTables from './pages/Tables';
-import Table1 from './pages/Table1';
+import Address from './tables/Address';
+import Affiliate from './tables/Affiliate';
+import AffiliateActivity from './tables/AffiliateActivity';
+import AffiliateLogin from './tables/AffiliateLogin';
+import AffiliateTransaction from './tables/AffiliateTransaction';
 import Query from './pages/Query';
 
 const App = () => {
@@ -16,18 +19,15 @@ const App = () => {
       <Router>
         <Sidebar />
         <Container fluid>
-          {/* <Row>
-              <Col xs={2}>
-              </Col>
-              <Col xs={10}> */}
-                <Switch>
-                  <Route path='/' exact component={Overview} />
-                  <Route path='/table/all' exact component={AllTables} />
-                  <Route path='/table/table1' component={Table1} />
-                  <Route path='/query' component={Query} />
-                </Switch>
-              {/* </Col> 
-          </Row> */}
+          <Switch>
+            <Route path='/' exact component={Overview} />
+            <Route path='/tables/address' component={Address} />
+            <Route path='/tables/affiliate' component={Affiliate} />
+            <Route path='/tables/affiliateactivity' component={AffiliateActivity} />
+            <Route path='/tables/affiliatelogin' component={AffiliateLogin} />
+            <Route path='/tables/affiliatetransaction' component={AffiliateTransaction} />
+            <Route path='/query' component={Query} />
+          </Switch>
       </Container>
     </Router>
     </div>

@@ -18,12 +18,17 @@ const Sidebar = () => {
     return (
       <React.Fragment>
         <Navbar bg="light">
-          <Button variant="link" type="submit" onClick={() => setOpenPanel(true)}>
-            <FontAwesomeIcon icon={faBars} />
+          <Navbar.Brand>
+          <Button className='shadow-none' variant="link" type="submit" onClick={() => setOpenPanel(true)}>
+            <FontAwesomeIcon icon={faBars} style={{color: 'black'}}/>
           </Button>
+          </Navbar.Brand>
+            <Navbar.Collapse className="justify-content-end">
+              <Navbar.Text>
+                Company Name
+              </Navbar.Text>
+            </Navbar.Collapse>
         </Navbar>
-
-        <div>
         <SlidingPanel
           type={'left'}
           isOpen={openPanel}
@@ -47,229 +52,25 @@ const Sidebar = () => {
                   itemId: '/table',
                   elemBefore: () => <FontAwesomeIcon icon={faTable} />,
                   subNav: [
-                      {
-                      title: 'All',
-                      itemId: '/table/all',
+                    {
+                      title: 'Address',
+                      itemId: '/tables/address',
                     },
                     {
-                      title: 'Table1',
-                      itemId: '/table/table1',
+                      title: 'Affiliate',
+                      itemId: '/tables/affiliate',
                     },
                     {
-                      title: 'Table2',
-                      itemId: '/table/table2',
+                      title: 'AffiliateActivity',
+                      itemId: '/tables/affiliateactivity',
                     },
                     {
-                      title: 'Table3',
-                      itemId: '/table/table3',
+                      title: 'AffiliateLogin',
+                      itemId: '/tables/affiliatelogin',
                     },
                     {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
-                    },
-                    {
-                      title: 'Table1',
-                      itemId: '/table/table1',
-                    },
-                    {
-                      title: 'Table2',
-                      itemId: '/table/table2',
-                    },
-                    {
-                      title: 'Table3',
-                      itemId: '/table/table3',
-                    },
-                    {
-                      title: 'Table4',
-                      itemId: '/table/table4',
-                    },
-                    {
-                      title: 'Table5',
-                      itemId: '/table/table5',
+                      title: 'AffiliateTransaction',
+                      itemId: '/tables/affiliatetransaction',
                     },
                   ],
                 },
@@ -282,7 +83,7 @@ const Sidebar = () => {
             />
           </div>
         </SlidingPanel>
-        </div>
+        
       </React.Fragment>
     )
 }

@@ -5,24 +5,24 @@ const CardBox = () => {
     return (
         <React.Fragment>
             <CardDeck>
-                <Card>
+                <Card className='text-center'>
                     <Card.Body>
-                    <Card.Title>Names</Card.Title>
+                    <Card.Title>Schema</Card.Title>
                     <Card.Text>
                         John Doe
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='text-center'>
                     <Card.Body>
-                    <Card.Title>Languages</Card.Title>
+                    <Card.Title>Statistic</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Python</Card.Subtitle>
                     <Card.Text>
                         Some text in here
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='text-center'>
                     <Card.Body>
                     <Card.Title>Line of codes</Card.Title>
                     <Card.Text>
@@ -30,9 +30,9 @@ const CardBox = () => {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='text-center'>
                     <Card.Body>
-                    <Card.Title>Names</Card.Title>
+                    <Card.Title>Something</Card.Title>
                     <Card.Text>
                         John Doe
                     </Card.Text>
