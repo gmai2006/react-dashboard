@@ -118,6 +118,134 @@ const Sidebar = () => {
                       title: 'Cart',
                       itemId: '/tables/cart',
                     },
+                    {
+                      title: 'Category',
+                      itemId: '/tables/category',
+                    },
+                    {
+                      title: 'CategoryDescription',
+                      itemId: '/tables/categorydescription',
+                    },
+                    {
+                      title: 'CategoryFilter',
+                      itemId: '/tables/categoryfilter',
+                    },
+                    {
+                      title: 'CategoryPath',
+                      itemId: '/tables/categorypath',
+                    },
+                    {
+                      title: 'CategoryToLayout',
+                      itemId: '/tables/categorytolayout',
+                    },
+                    {
+                      title: 'CategoryToStore',
+                      itemId: '/tables/categorytostore',
+                    },
+                    {
+                      title: 'Country',
+                      itemId: '/tables/country',
+                    },
+                    {
+                      title: 'Coupon',
+                      itemId: '/tables/coupon',
+                    },
+                    {
+                      title: 'CouponCategory',
+                      itemId: '/tables/couponcategory',
+                    },
+                    {
+                      title: 'CouponHistory',
+                      itemId: '/tables/couponhistory',
+                    },
+                    {
+                      title: 'CouponProduct',
+                      itemId: '/tables/couponproduct',
+                    },
+                    {
+                      title: 'Currency',
+                      itemId: '/tables/currency',
+                    },
+                    {
+                      title: 'CustomField',
+                      itemId: '/tables/customfield',
+                    },
+                    {
+                      title: 'CustomFieldCustomerGroup',
+                      itemId: '/tables/customfieldcustomergroup',
+                    },
+                    {
+                      title: 'CustomFieldDescription',
+                      itemId: '/tables/customfielddescription',
+                    },
+                    {
+                      title: 'CustomFieldValue',
+                      itemId: '/tables/customfieldvalue',
+                    },
+                    {
+                      title: 'Customer',
+                      itemId: '/tables/customer',
+                    },
+                    {
+                      title: 'CustomerActivity',
+                      itemId: '/tables/customeractivity',
+                    },
+                    {
+                      title: 'CustomerGroup',
+                      itemId: '/tables/customergroup',
+                    },
+                    {
+                      title: 'CustomerGroupDescription',
+                      itemId: '/tables/customergroupdescription',
+                    },
+                    {
+                      title: 'CustomerHistory',
+                      itemId: '/tables/customerhistory',
+                    },
+                    {
+                      title: 'CustomerIP',
+                      itemId: '/tables/customerip',
+                    },
+                    {
+                      title: 'CustomerLogin',
+                      itemId: '/tables/customerlogin',
+                    },
+                    {
+                      title: 'CustomerOnline',
+                      itemId: '/tables/customeronline',
+                    },
+                    {
+                      title: 'CustomerReward',
+                      itemId: '/tables/customerreward',
+                    },
+                    {
+                      title: 'CustomerSearch',
+                      itemId: '/tables/customersearch',
+                    },
+                    {
+                      title: 'CustomerTransaction',
+                      itemId: '/tables/customertransaction',
+                    },
+                    {
+                      title: 'CustomerWishlist',
+                      itemId: '/tables/customerwishlist',
+                    },
+                    {
+                      title: 'Download',
+                      itemId: '/tables/download',
+                    },
+                    {
+                      title: 'DownloadDescription',
+                      itemId: '/tables/downloaddescription',
+                    },
+                    {
+                      title: 'Event',
+                      itemId: '/tables/event',
+                    },
+                    {
+                      title: 'Extension',
+                      itemId: '/tables/extension',
+                    },
                   ],
                 },
                 {
