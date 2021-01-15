@@ -55,6 +55,34 @@ import Download from './pages/tables/Download';
 import DownloadDescription from './pages/tables/DownloadDescription';
 import Event from './pages/tables/Event';
 import Extension from './pages/tables/Extension';
+import Filter from './pages/tables/Filter';
+import FilterDescription from './pages/tables/FilterDescription';
+import FilterGroup from './pages/tables/FilterGroup';
+import FilterGroupDescription from './pages/tables/FilterGroupDescription';
+import GeoZone from './pages/tables/GeoZone';
+import Information from './pages/tables/Information';
+import InformationDescription from './pages/tables/InformationDescription';
+import InformationToLayout from './pages/tables/InformationToLayout';
+import InformationToStore from './pages/tables/InformationToStore';
+import Language from './pages/tables/Language';
+import Layout from './pages/tables/Layout';
+import LayoutModule from './pages/tables/LayoutModule';
+import LayoutRoute from './pages/tables/LayoutRoute';
+import LengthClass from './pages/tables/LengthClass';
+import LengthClassDescription from './pages/tables/LengthClassDescription';
+import Location from './pages/tables/Location';
+import Manufacturer from './pages/tables/Manufacturer';
+import ManufacturerToStore from './pages/tables/ManufacturerToStore';
+import Marketing from './pages/tables/Marketing';
+import Menu from './pages/tables/Menu';
+import MenuDescription from './pages/tables/MenuDescription';
+import MenuModule from './pages/tables/MenuModule';
+import Modification from './pages/tables/Modification';
+import Module from './pages/tables/Module';
+import Option from './pages/tables/Option';
+import OptionDescription from './pages/tables/OptionDescription';
+import OptionValue from './pages/tables/OptionValue';
+import OptionValueDescription from './pages/tables/OptionValueDescription';
 
 const App = () => {
   return (
@@ -113,6 +141,34 @@ const App = () => {
             <Route path='/tables/downloaddescription' component={DownloadDescription} />
             <Route path='/tables/event' component={Event} />
             <Route path='/tables/extension' component={Extension} />
+            <Route path='/tables/filter' component={Filter} />
+            <Route path='/tables/filterdescription' component={FilterDescription} />
+            <Route path='/tables/filtergroup' component={FilterGroup} />
+            <Route path='/tables/filtergroupdescription' component={FilterGroupDescription} />
+            <Route path='/tables/geozone' component={GeoZone} />
+            <Route path='/tables/information' component={Information} />
+            <Route path='/tables/informationdescription' component={InformationDescription} />
+            <Route path='/tables/informationtolayout' component={InformationToLayout} />
+            <Route path='/tables/informationtostore' component={InformationToStore} />
+            <Route path='/tables/language' component={Language} />
+            <Route path='/tables/layout' component={Layout} />
+            <Route path='/tables/layoutmodule' component={LayoutModule} />
+            <Route path='/tables/layoutroute' component={LayoutRoute} />
+            <Route path='/tables/lengthclass' component={LengthClass} />
+            <Route path='/tables/lengthclassdescription' component={LengthClassDescription} />
+            <Route path='/tables/location' component={Location} />
+            <Route path='/tables/manufacturer' component={Manufacturer} />
+            <Route path='/tables/manufacturertostore' component={ManufacturerToStore} />
+            <Route path='/tables/marketing' component={Marketing} />
+            <Route path='/tables/menu' component={Menu} />
+            <Route path='/tables/menudescription' component={MenuDescription} />
+            <Route path='/tables/menumodule' component={MenuModule} />
+            <Route path='/tables/modification' component={Modification} />
+            <Route path='/tables/module' component={Module} />
+            <Route path='/tables/option' component={Option} />
+            <Route path='/tables/optiondescription' component={OptionDescription} />
+            <Route path='/tables/optionvalue' component={OptionValue} />
+            <Route path='/tables/optionvaluedescription' component={OptionValueDescription} />
           </Switch>
       </Container>
     </Router>

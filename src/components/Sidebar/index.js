@@ -33,7 +33,7 @@ const Sidebar = () => {
           closeIcon={<FontAwesomeIcon icon={faTimes} />}
           isOpen={openPanel}
           from="left"
-          width="325px"
+          width="350px"
           onRequestClose={() => setOpenPanel(false)}
         >
           <div className="panel-container">
@@ -241,6 +241,118 @@ const Sidebar = () => {
                     {
                       title: 'Extension',
                       itemId: '/tables/extension',
+                    },
+                    {
+                      title: 'Filter',
+                      itemId: '/tables/filter',
+                    },
+                    {
+                      title: 'FilterDescription',
+                      itemId: '/tables/filterdescription',
+                    },
+                    {
+                      title: 'FilterGroup',
+                      itemId: '/tables/filtergroup',
+                    },
+                    {
+                      title: 'FilterGroupDescription',
+                      itemId: '/tables/filtergroupdescription',
+                    },
+                    {
+                      title: 'GeoZone',
+                      itemId: '/tables/geozone',
+                    },
+                    {
+                      title: 'Information',
+                      itemId: '/tables/information',
+                    },
+                    {
+                      title: 'InformationDescription',
+                      itemId: '/tables/informationdescription',
+                    },
+                    {
+                      title: 'InformationToLayout',
+                      itemId: '/tables/informationtolayout',
+                    },
+                    {
+                      title: 'InformationToStore',
+                      itemId: '/tables/informationtoStore',
+                    },
+                    {
+                      title: 'Language',
+                      itemId: '/tables/language',
+                    },
+                    {
+                      title: 'Layout',
+                      itemId: '/tables/layout',
+                    },
+                    {
+                      title: 'LayoutModule',
+                      itemId: '/tables/layoutmodule',
+                    },
+                    {
+                      title: 'LayoutRoute',
+                      itemId: '/tables/layoutroute',
+                    },
+                    {
+                      title: 'LengthClass',
+                      itemId: '/tables/lengthclass',
+                    },
+                    {
+                      title: 'LengthClassDescription',
+                      itemId: '/tables/lengthclassdescription',
+                    },
+                    {
+                      title: 'Location',
+                      itemId: '/tables/location',
+                    },
+                    {
+                      title: 'Manufacturer',
+                      itemId: '/tables/manufacturer',
+                    },
+                    {
+                      title: 'ManufacturerToStore',
+                      itemId: '/tables/manufacturertostore',
+                    },
+                    {
+                      title: 'Marketing',
+                      itemId: '/tables/marketing',
+                    },
+                    {
+                      title: 'Menu',
+                      itemId: '/tables/menu',
+                    },
+                    {
+                      title: 'MenuDescription',
+                      itemId: '/tables/menudescription',
+                    },
+                    {
+                      title: 'MenuModule',
+                      itemId: '/tables/menumodule',
+                    },
+                    {
+                      title: 'Modification',
+                      itemId: '/tables/modification',
+                    },
+                    {
+                      title: 'Module',
+                      itemId: '/tables/module',
+                    },
+                    {
+                      title: 'Option',
+                      itemId: '/tables/option',
+                    },
+                    {
+                      title: 'OptionDescription',
+                      itemId: '/tables/optiondescription',
+                    },
+                    {
+                      title: 'OptionValue',
+                      itemId: '/tables/optionvalue',
+                    },
+                    {
+                      title: 'OptionValueDescription',
+                      itemId: '/tables/optionvaluedescription',
                     },
                   ],
                 },
