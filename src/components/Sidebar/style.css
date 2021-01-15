@@ -1,3 +1,15 @@
 .panel-container {
     background-color: white !important;
 }
+
+.sliding-panel {
+    width: 20px !important;
+}
+
+/* @media only screen and (max-width: 1024px) {
+
+    .sliding-panel {
+        width: 20% !important;
+    }
+
+} */

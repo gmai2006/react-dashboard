@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import SlidingPanel from 'react-sliding-side-panel';
-import 'react-sliding-side-panel/lib/index.css';
+import SlidingPane from "react-sliding-pane";
+import "react-sliding-pane/dist/react-sliding-pane.css";
 import {Button, Navbar} from 'react-bootstrap';
 import './style.css';
 
@@ -20,7 +20,7 @@ const Sidebar = () => {
         <Navbar bg="light">
           <Navbar.Brand>
           <Button className='shadow-none' variant="link" type="submit" onClick={() => setOpenPanel(true)}>
-            <FontAwesomeIcon icon={faBars} style={{color: 'black'}}/>
+            <FontAwesomeIcon icon={faBars} style={{color: '#2d3748'}}/>
           </Button>
           </Navbar.Brand>
             <Navbar.Collapse className="justify-content-end">
@@ -29,11 +29,12 @@ const Sidebar = () => {
               </Navbar.Text>
             </Navbar.Collapse>
         </Navbar>
-        <SlidingPanel
-          type={'left'}
+        <SlidingPane
+          closeIcon={<FontAwesomeIcon icon={faTimes} />}
           isOpen={openPanel}
-          size={20}
-          backdropClicked={() => setOpenPanel(false)}
+          from="left"
+          width="325px"
+          onRequestClose={() => setOpenPanel(false)}
         >
           <div className="panel-container">
             <Navigation
@@ -43,11 +44,6 @@ const Sidebar = () => {
                   setOpenPanel(false);
               }}
               items={[
-                {
-                  title: '',
-                  itemId: '#',
-                  elemBefore: () => <FontAwesomeIcon icon={faTimes} />,
-                },
                 {
                   title: 'Overview',
                   itemId: '/',
@@ -256,8 +252,7 @@ const Sidebar = () => {
               ]}
             />
           </div>
-        </SlidingPanel>
-        
+        </SlidingPane>
       </React.Fragment>
     )
 }
