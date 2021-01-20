@@ -354,6 +354,142 @@ const Sidebar = () => {
                       title: 'OptionValueDescription',
                       itemId: '/tables/optionvaluedescription',
                     },
+                    {
+                      title: 'Order',
+                      itemId: '/tables/order',
+                    },
+                    {
+                      title: 'OrderCustomField',
+                      itemId: '/tables/ordercustomfield',
+                    },
+                    {
+                      title: 'OrderHistory',
+                      itemId: '/tables/orderhistory',
+                    },
+                    {
+                      title: 'OrderOption',
+                      itemId: '/tables/orderoption',
+                    },
+                    {
+                      title: 'OrderProduct',
+                      itemId: '/tables/orderproduct',
+                    },
+                    {
+                      title: 'OrderRecurring',
+                      itemId: '/tables/orderrecurring',
+                    },
+                    {
+                      title: 'OrderRecurringTransaction',
+                      itemId: '/tables/orderrecurringtransaction',
+                    },
+                    {
+                      title: 'OrderStatus',
+                      itemId: '/tables/orderstatus',
+                    },
+                    {
+                      title: 'OrderTotal',
+                      itemId: '/tables/ordertotal',
+                    },
+                    {
+                      title: 'OrderVoucher',
+                      itemId: '/tables/ordervoucher',
+                    },
+                    {
+                      title: 'Product',
+                      itemId: '/tables/product',
+                    },
+                    {
+                      title: 'ProductAttribute',
+                      itemId: '/tables/productattribute',
+                    },
+                    {
+                      title: 'ProductDescription',
+                      itemId: '/tables/productdescription',
+                    },
+                    {
+                      title: 'ProductDiscount',
+                      itemId: '/tables/productdiscount',
+                    },
+                    {
+                      title: 'ProductFilter',
+                      itemId: '/tables/productfilter',
+                    },
+                    {
+                      title: 'ProductImage',
+                      itemId: '/tables/productimage',
+                    },
+                    {
+                      title: 'ProductOption',
+                      itemId: '/tables/productoption',
+                    },
+                    {
+                      title: 'ProductOptionValue',
+                      itemId: '/tables/productoptionvalue',
+                    },
+                    {
+                      title: 'ProductRecurring',
+                      itemId: '/tables/productrecurring',
+                    },
+                    {
+                      title: 'ProductRelated',
+                      itemId: '/tables/productrelated',
+                    },
+                    {
+                      title: 'ProductReward',
+                      itemId: '/tables/productreward',
+                    },
+                    {
+                      title: 'ProductSpecial',
+                      itemId: '/tables/productspecial',
+                    },
+                    {
+                      title: 'ProductToCategory',
+                      itemId: '/tables/producttocategory',
+                    },
+                    {
+                      title: 'ProductToDownload',
+                      itemId: '/tables/producttodownload',
+                    },
+                    {
+                      title: 'ProductToLayout',
+                      itemId: '/tables/producttolayout',
+                    },
+                    {
+                      title: 'ProductToStore',
+                      itemId: '/tables/producttostore',
+                    },
+                    {
+                      title: 'Recurring',
+                      itemId: '/tables/recurring',
+                    },
+                    {
+                      title: 'RecurringDescription',
+                      itemId: '/tables/recurringdescription',
+                    },
+                    {
+                      title: 'Return',
+                      itemId: '/tables/return',
+                    },
+                    {
+                      title: 'ReturnAction',
+                      itemId: '/tables/returnaction',
+                    },
+                    {
+                      title: 'ReturnHistory',
+                      itemId: '/tables/returnhistory',
+                    },
+                    {
+                      title: 'ReturnReason',
+                      itemId: '/tables/returnreason',
+                    },
+                    {
+                      title: 'ReturnStatus',
+                      itemId: '/tables/returnstatus',
+                    },
+                    {
+                      title: 'Review',
+                      itemId: '/tables/review',
+                    },
                   ],
                 },
                 {

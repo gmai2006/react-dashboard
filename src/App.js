@@ -83,6 +83,40 @@ import Option from './pages/tables/Option';
 import OptionDescription from './pages/tables/OptionDescription';
 import OptionValue from './pages/tables/OptionValue';
 import OptionValueDescription from './pages/tables/OptionValueDescription';
+import Order from './pages/tables/Order';
+import OrderCustomField from './pages/tables/OrderCustomField';
+import OrderHistory from './pages/tables/OrderHistory';
+import OrderOption from './pages/tables/OrderOption';
+import OrderProduct from './pages/tables/OrderProduct';
+import OrderRecurring from './pages/tables/OrderRecurring';
+import OrderRecurringTransaction from './pages/tables/OrderRecurringTransaction';
+import OrderStatus from './pages/tables/OrderStatus';
+import OrderTotal from './pages/tables/OrderTotal';
+import OrderVoucher from './pages/tables/OrderVoucher';
+import Product from './pages/tables/Product';
+import ProductAttribute from './pages/tables/ProductAttribute';
+import ProductDescription from './pages/tables/ProductDescription';
+import ProductDiscount from './pages/tables/ProductDiscount';
+import ProductFilter from './pages/tables/ProductFilter';
+import ProductImage from './pages/tables/ProductImage';
+import ProductOption from './pages/tables/ProductOption';
+import ProductOptionValue from './pages/tables/ProductOptionValue';
+import ProductRecurring from './pages/tables/ProductRecurring';
+import ProductRelated from './pages/tables/ProductRelated';
+import ProductReward from './pages/tables/ProductReward';
+import ProductSpecial from './pages/tables/ProductSpecial';
+import ProductToCategory from './pages/tables/ProductToCategory';
+import ProductToDownload from './pages/tables/ProductToDownload';
+import ProductToLayout from './pages/tables/ProductToLayout';
+import ProductToStore from './pages/tables/ProductToStore';
+import Recurring from './pages/tables/Recurring';
+import RecurringDescription from './pages/tables/RecurringDescription';
+import Return from './pages/tables/Return';
+import ReturnAction from './pages/tables/ReturnAction';
+import ReturnHistory from './pages/tables/ReturnHistory';
+import ReturnReason from './pages/tables/ReturnReason';
+import ReturnStatus from './pages/tables/ReturnStatus';
+import Review from './pages/tables/Review';
 
 const App = () => {
   return (
@@ -169,6 +203,40 @@ const App = () => {
             <Route path='/tables/optiondescription' component={OptionDescription} />
             <Route path='/tables/optionvalue' component={OptionValue} />
             <Route path='/tables/optionvaluedescription' component={OptionValueDescription} />
+            <Route path='/tables/order' component={Order} />
+            <Route path='/tables/ordercustomfield' component={OrderCustomField} />
+            <Route path='/tables/orderhistory' component={OrderHistory} />
+            <Route path='/tables/orderoption' component={OrderOption} />
+            <Route path='/tables/orderproduct' component={OrderProduct} />
+            <Route path='/tables/orderrecurring' component={OrderRecurring} />
+            <Route path='/tables/orderrecurringtransaction' component={OrderRecurringTransaction} />
+            <Route path='/tables/orderstatus' component={OrderStatus} />
+            <Route path='/tables/ordertotal' component={OrderTotal} />
+            <Route path='/tables/ordervoucher' component={OrderVoucher} />
+            <Route path='/tables/product' component={Product} />
+            <Route path='/tables/productattribute' component={ProductAttribute} />
+            <Route path='/tables/productdescription' component={ProductDescription} />
+            <Route path='/tables/productdiscount' component={ProductDiscount} />
+            <Route path='/tables/productfilter' component={ProductFilter} />
+            <Route path='/tables/productimage' component={ProductImage} />
+            <Route path='/tables/productoption' component={ProductOption} />
+            <Route path='/tables/productoptionvalue' component={ProductOptionValue} />
+            <Route path='/tables/productrecurring' component={ProductRecurring} />
+            <Route path='/tables/productrelated' component={ProductRelated} />
+            <Route path='/tables/productreward' component={ProductReward} />
+            <Route path='/tables/productspecial' component={ProductSpecial} />
+            <Route path='/tables/producttocategory' component={ProductToCategory} />
+            <Route path='/tables/producttodownload' component={ProductToDownload} />
+            <Route path='/tables/producttolayout' component={ProductToLayout} />
+            <Route path='/tables/producttostore' component={ProductToStore} />
+            <Route path='/tables/recurring' component={Recurring} />
+            <Route path='/tables/recurringdescription' component={RecurringDescription} />
+            <Route path='/tables/return' component={Return} />
+            <Route path='/tables/returnaction' component={ReturnAction} />
+            <Route path='/tables/returnhistory' component={ReturnHistory} />
+            <Route path='/tables/returnreason' component={ReturnReason} />
+            <Route path='/tables/returnstatus' component={ReturnStatus} />
+            <Route path='/tables/review' component={Review} />
           </Switch>
       </Container>
     </Router>
