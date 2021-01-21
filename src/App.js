@@ -117,6 +117,27 @@ import ReturnHistory from './pages/tables/ReturnHistory';
 import ReturnReason from './pages/tables/ReturnReason';
 import ReturnStatus from './pages/tables/ReturnStatus';
 import Review from './pages/tables/Review';
+import Setting from './pages/tables/Setting';
+import StockStatus from './pages/tables/StockStatus';
+import Store from './pages/tables/Store';
+import TaxClass from './pages/tables/TaxClass';
+import TaxRate from './pages/tables/TaxRate';
+import TaxRateToCustomerGroup from './pages/tables/TaxRateToCustomerGroup';
+import TaxRule from './pages/tables/TaxRule';
+import Theme from './pages/tables/Theme';
+import Translation from './pages/tables/Translation';
+import Upload from './pages/tables/Upload';
+import UrlAlias from './pages/tables/UrlAlias';
+import User from './pages/tables/User';
+import UserGroup from './pages/tables/UserGroup';
+import Voucher from './pages/tables/Voucher';
+import VoucherHistory from './pages/tables/VoucherHistory';
+import VoucherTheme from './pages/tables/VoucherTheme';
+import VoucherThemeDescription from './pages/tables/VoucherThemeDescription';
+import WeightClass from './pages/tables/WeightClass';
+import WeightClassDescription from './pages/tables/WeightClassDescription';
+import Zone from './pages/tables/Zone';
+import ZoneToGeoZone from './pages/tables/ZoneToGeoZone';
 
 const App = () => {
   return (
@@ -237,6 +258,27 @@ const App = () => {
             <Route path='/tables/returnreason' component={ReturnReason} />
             <Route path='/tables/returnstatus' component={ReturnStatus} />
             <Route path='/tables/review' component={Review} />
+            <Route path='/tables/setting' component={Setting} />
+            <Route path='/tables/stockstatus' component={StockStatus} />
+            <Route path='/tables/store' component={Store} />
+            <Route path='/tables/taxclass' component={TaxClass} />
+            <Route path='/tables/taxrate' component={TaxRate} />
+            <Route path='/tables/taxratetocustomergroup' component={TaxRateToCustomerGroup} />
+            <Route path='/tables/taxrule' component={TaxRule} />
+            <Route path='/tables/theme' component={Theme} />
+            <Route path='/tables/translation' component={Translation} />
+            <Route path='/tables/upload' component={Upload} />
+            <Route path='/tables/urlalias' component={UrlAlias} />
+            <Route path='/tables/user' component={User} />
+            <Route path='/tables/usergroup' component={UserGroup} />
+            <Route path='/tables/voucher' component={Voucher} />
+            <Route path='/tables/voucherhistory' component={VoucherHistory} />
+            <Route path='/tables/vouchertheme' component={VoucherTheme} />
+            <Route path='/tables/voucherthemedescription' component={VoucherThemeDescription} />
+            <Route path='/tables/weightclass' component={WeightClass} />
+            <Route path='/tables/weightclassdescription' component={WeightClassDescription} />
+            <Route path='/tables/zone' component={Zone} />
+            <Route path='/tables/zonetogeozone' component={ZoneToGeoZone} />
           </Switch>
       </Container>
     </Router>

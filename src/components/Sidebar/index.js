@@ -490,6 +490,90 @@ const Sidebar = () => {
                       title: 'Review',
                       itemId: '/tables/review',
                     },
+                    {
+                      title: 'Setting',
+                      itemId: '/tables/setting',
+                    },
+                    {
+                      title: 'StockStatus',
+                      itemId: '/tables/stockstatus',
+                    },
+                    {
+                      title: 'Store',
+                      itemId: '/tables/store',
+                    },
+                    {
+                      title: 'TaxClass',
+                      itemId: '/tables/taxclass',
+                    },
+                    {
+                      title: 'TaxRate',
+                      itemId: '/tables/taxrate',
+                    },
+                    {
+                      title: 'TaxRateToCustomerGroup',
+                      itemId: '/tables/taxratetocustomergroup',
+                    },
+                    {
+                      title: 'TaxRule',
+                      itemId: '/tables/taxrule',
+                    },
+                    {
+                      title: 'Theme',
+                      itemId: '/tables/theme',
+                    },
+                    {
+                      title: 'Translation',
+                      itemId: '/tables/translation',
+                    },
+                    {
+                      title: 'Upload',
+                      itemId: '/tables/upload',
+                    },
+                    {
+                      title: 'UrlAlias',
+                      itemId: '/tables/urlalias',
+                    },
+                    {
+                      title: 'User',
+                      itemId: '/tables/user',
+                    },
+                    {
+                      title: 'UserGroup',
+                      itemId: '/tables/usergroup',
+                    },
+                    {
+                      title: 'Voucher',
+                      itemId: '/tables/voucher',
+                    },
+                    {
+                      title: 'VoucherHistory',
+                      itemId: '/tables/voucherhistory',
+                    },
+                    {
+                      title: 'VoucherTheme',
+                      itemId: '/tables/vouchertheme',
+                    },
+                    {
+                      title: 'VoucherThemeDescription',
+                      itemId: '/tables/voucherthemedescription',
+                    },
+                    {
+                      title: 'WeightClass',
+                      itemId: '/tables/weightclass',
+                    },
+                    {
+                      title: 'WeightClassDescription',
+                      itemId: '/tables/weightclassdescription',
+                    },
+                    {
+                      title: 'Zone',
+                      itemId: '/tables/zone',
+                    },
+                    {
+                      title: 'ZoneToGeoZone',
+                      itemId: '/tables/zonetogeozone',
+                    },
                   ],
                 },
                 {
