@@ -62,7 +62,21 @@ const Sidebar = () => {
                       title: 'Affiliate',
                       itemId: '/tables/affiliate',
                     },
-                    
+                    ,
+                    {
+                      title: 'Test',
+                      itemId: '/tables/test',
+                    },
+                    ,
+                    {
+                      title: 'Test2',
+                      itemId: '/tables/test2',
+                    },
+                    ,
+                    {
+                      title: 'Test3',
+                      itemId: '/tables/test3',
+                    },
                   ],
                 },
                 {

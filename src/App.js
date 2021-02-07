@@ -9,7 +9,9 @@ import Overview from './pages/Overview';
 import Query from './pages/Query';
 import Address from './pages/tables/Address';
 import Affiliate from './pages/tables/Affiliate';
-
+import Test from './pages/tables/Test';
+import Test2 from './pages/tables/Test2';
+import Test3 from './pages/tables/Test3';
 
 const App = () => {
   return (
@@ -22,7 +24,9 @@ const App = () => {
             <Route path='/query' component={Query} />
             <Route path='/tables/address' component={Address} />
             <Route path='/tables/affiliate' component={Affiliate} />
-            
+            <Route path='/tables/test' component={Test} />
+            <Route path='/tables/test2' component={Test2} />
+            <Route path='/tables/test3' component={Test3} />
           </Switch>
       </Container>
     </Router>
